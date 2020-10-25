@@ -2,9 +2,9 @@
 
 echo "This will take some time."
 
-apt-get update
-apt-get upgrade
-apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++ git libgmp-dev
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++ git libgmp-dev
 
 git clone https://github.com/magi-project/m-cpuminer-v2.git
 
